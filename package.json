@@ -1,6 +1,6 @@
 {
   "name": "@more-markdown/mathjax-processor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mathjax Processor for more-markdown.",
   "main": "lib/mathjax_processor.js",
   "dependencies": {
@@ -17,12 +17,18 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish" : "node node_modules/gulp/bin/gulp.js"
   },
   "keywords": [
     "Markdown",
     "MathJax"
   ],
-  "author": "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
+  "repository": "gitlab:Welfenlab/mathjax-processor",
+  "contributors" : [
+    "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
+    "Maik Marschner (https://github.com/leMaik)",
+    "Tim Ebbeke (https://github.com/5cript)"
+  ],
   "license": "MIT"
 }
